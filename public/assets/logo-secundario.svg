@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Circular border -->
+  <circle cx="250" cy="250" r="236" fill="#FFFFFF" stroke="#E7107A" stroke-width="8" />
+
+  <!-- Sparkle stars inside circle -->
+  <path d="M 90 248 C 102 248 102 235 102 235 C 102 235 102 248 114 248 C 102 248 102 261 102 261 C 102 261 102 248 90 248 Z" fill="#E7107A" />
+  <path d="M 386 248 C 398 248 398 235 398 235 C 398 235 398 248 410 248 C 398 248 398 261 398 261 C 398 261 398 248 386 248 Z" fill="#E7107A" />
+  <path d="M 345 160 C 354 160 354 148 354 148 C 354 148 354 160 363 160 C 354 160 354 172 354 172 C 354 172 354 160 345 160 Z" fill="#E7107A" />
+
+  <!-- PINK GLOW text -->
+  <text x="250" y="185" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="700" fill="#0A2E58" text-anchor="middle" letter-spacing="4">PINK</text>
+  <text x="250" y="255" font-family="'Playfair Display', Georgia, serif" font-size="68" font-weight="700" fill="#0A2E58" text-anchor="middle" letter-spacing="6">GLOW</text>
+
+  <!-- Cherries -->
+  <g transform="translate(250, 320) scale(0.65) translate(-125, -125)">
+    <path d="M 125 70 C 85 55 60 70 50 85 C 80 95 110 85 125 70 Z" fill="#E7107A" />
+    <path d="M 125 70 C 165 55 190 70 200 85 C 170 95 140 85 125 70 Z" fill="#E7107A" />
+    <path d="M 125 70 C 110 110 95 140 85 160" fill="none" stroke="#E7107A" stroke-width="6" stroke-linecap="round" />
+    <path d="M 125 70 C 140 110 155 140 165 160" fill="none" stroke="#E7107A" stroke-width="6" stroke-linecap="round" />
+    <circle cx="75" cy="180" r="34" fill="#E7107A" />
+    <path d="M 58 165 C 54 175 58 190 68 195 C 62 190 60 178 64 168 Z" fill="#FFFFFF" opacity="0.85" />
+    <circle cx="175" cy="180" r="34" fill="#E7107A" />
+    <path d="M 192 165 C 196 175 192 190 182 195 C 188 190 190 178 186 168 Z" fill="#FFFFFF" opacity="0.85" />
+  </g>
+</svg>

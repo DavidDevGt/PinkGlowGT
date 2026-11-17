@@ -1,0 +1,45 @@
+<div class="min-h-screen flex flex-col bg-[#FFFDFE]">
+  <!-- Skip Link for Keyboard Accessibility -->
+  <a 
+    href="#catalogo" 
+    class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2.5 focus:bg-[#E7107A] focus:text-white focus:font-bold focus:rounded-xl focus:shadow-xl focus:outline-hidden"
+  >
+    Saltar directamente al catálogo
+  </a>
+
+  <!-- Top Announcement Bar -->
+  <app-top-bar />
+
+  <!-- Sticky Header & Navigation -->
+  <app-header />
+
+  <!-- Main Landing Content -->
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <app-hero />
+
+    <!-- Trust Badges (100% Originales, Fotos y Guía de Envío, Pagas y coordinamos todo) -->
+    <app-trust-badges />
+
+    <!-- Interactive Catalog with Tabs & Direct WhatsApp Actions -->
+    <app-catalog (productSelected)="onProductSelected($event)" />
+
+    <!-- Transparency & Social Proof (Originalidad, Batch Code, Redes Sociales) -->
+    <app-transparency />
+
+    <!-- How to Order Step-by-Step -->
+    <app-how-to-order />
+
+    <!-- FAQ Accordion -->
+    <app-faq />
+  </main>
+
+  <!-- Brand Footer -->
+  <app-footer />
+
+  <!-- Floating WhatsApp Button with Glowie Mascot -->
+  <app-whatsapp-float />
+
+  <!-- Quick View Details Modal -->
+  <app-quick-view-modal [product]="selectedProduct()" (dismiss)="closeModal()" />
+</div>

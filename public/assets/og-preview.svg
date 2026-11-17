@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGlow" cx="80%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#FFE4EE" />
+      <stop offset="45%" stop-color="#FFF5F8" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </radialGradient>
+    <linearGradient id="cherryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B9D" />
+      <stop offset="50%" stop-color="#E7107A" />
+      <stop offset="100%" stop-color="#BA005B" />
+    </linearGradient>
+    <linearGradient id="bowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBF2" />
+      <stop offset="100%" stop-color="#FFB3CD" />
+    </linearGradient>
+    <filter id="shadowDrop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#E7107A" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGlow)" />
+
+  <!-- Sparkles -->
+  <path d="M 620 90 C 626 90 626 78 626 78 C 626 78 626 90 632 90 C 626 90 626 102 626 102 C 626 102 626 90 620 90 Z" fill="#E7107A" />
+  <path d="M 150 490 C 158 490 158 475 158 475 C 158 475 158 490 166 490 C 158 490 158 505 158 505 C 158 505 158 490 150 490 Z" fill="#F87B9A" />
+  <path d="M 1120 110 C 1130 110 1130 95 1130 95 C 1130 95 1130 110 1140 110 C 1130 110 1130 125 1130 125 C 1130 125 1130 110 1120 110 Z" fill="#E7107A" />
+
+  <!-- Logo Brand -->
+  <g transform="translate(80, 70)">
+    <circle cx="28" cy="28" r="28" fill="#FFFFFF" stroke="#E7107A" stroke-width="2.5" />
+    <path d="M 28 17 C 24 15 21 17 20 19 C 23 21 26 20 28 17 Z" fill="#E7107A" />
+    <path d="M 28 17 C 32 15 35 17 36 19 C 33 21 30 20 28 17 Z" fill="#E7107A" />
+    <circle cx="21" cy="33" r="5" fill="#E7107A" />
+    <circle cx="35" cy="33" r="5" fill="#E7107A" />
+    <text x="75" y="38" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="800" fill="#0A2E58" letter-spacing="3">PINK<tspan fill="#E7107A">GLOW</tspan></text>
+    <text x="77" y="55" font-family="'Montserrat', sans-serif" font-size="11" font-weight="700" fill="#E7107A" letter-spacing="6">MAKEUP • PERFUME</text>
+  </g>
+
+  <!-- Tag Pill -->
+  <g transform="translate(80, 175)">
+    <rect width="360" height="38" rx="19" fill="#FFFFFF" stroke="#FFD6E0" stroke-width="1.5" />
+    <text x="25" y="24" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700" fill="#E7107A" letter-spacing="1">✨ DUTY FREE GUATEMALA • 100% ORIGINAL</text>
+  </g>
+
+  <!-- Headlines -->
+  <text x="80" y="275" font-family="'Playfair Display', Georgia, serif" font-size="54" font-weight="800" fill="#0A2E58">Maquillaje y Perfumes.</text>
+  <text x="80" y="340" font-family="'Playfair Display', Georgia, serif" font-size="54" font-weight="800" font-style="italic" fill="#E7107A">Brilla a tu manera.</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="395" font-family="'Montserrat', sans-serif" font-size="19" font-weight="400" fill="#475569">Catálogo interactivo oficial en Guatemala con Benefit Cosmetics,</text>
+  <text x="80" y="425" font-family="'Montserrat', sans-serif" font-size="19" font-weight="400" fill="#475569">perfumes sellados, video real con tu nombre y despacho inmediato.</text>
+
+  <!-- Badges footer -->
+  <g transform="translate(80, 480)">
+    <!-- Pill 1 -->
+    <rect width="200" height="46" rx="23" fill="#E7107A" />
+    <text x="100" y="28" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">BENEFIT TINTS Q280</text>
+
+    <!-- Pill 2 -->
+    <rect x="215" width="230" height="46" rx="23" fill="#0A2E58" />
+    <text x="330" y="28" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">PERFUMES DUTY FREE Q350</text>
+
+    <!-- Pill 3 -->
+    <rect x="460" width="190" height="46" rx="23" fill="#FFFFFF" stroke="#0A2E58" stroke-width="2" />
+    <text x="555" y="28" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700" fill="#0A2E58" text-anchor="middle" letter-spacing="0.5">COMBOS ESPECIALES</text>
+  </g>
+
+  <!-- Mascot Glowie on the right -->
+  <g transform="translate(820, 160) scale(0.95)" filter="url(#shadowDrop)">
+    <!-- Cherry Body -->
+    <path d="M 180 140 C 150 100 80 95 65 160 C 50 225 120 280 180 315 C 240 280 310 225 295 160 C 280 95 210 100 180 140 Z" fill="url(#cherryGrad)" stroke="#BA005B" stroke-width="4.5" />
+    
+    <!-- Glossy highlights -->
+    <path d="M 85 145 C 95 120 135 115 155 130 C 130 135 100 150 90 170 Z" fill="#FFFFFF" opacity="0.8" />
+    <ellipse cx="85" cy="185" rx="7" ry="12" transform="rotate(-20 85 185)" fill="#FFFFFF" opacity="0.7" />
+
+    <!-- Stems -->
+    <path d="M 160 120 Q 140 70 160 45" fill="none" stroke="#0A2E58" stroke-width="9" stroke-linecap="round" />
+    <path d="M 200 120 Q 220 70 200 45" fill="none" stroke="#0A2E58" stroke-width="9" stroke-linecap="round" />
+
+    <!-- Bow -->
+    <path d="M 180 40 C 145 10 115 25 120 55 C 125 80 160 65 180 45 Z" fill="url(#bowGrad)" stroke="#E7107A" stroke-width="2.5" />
+    <path d="M 180 40 C 215 10 245 25 240 55 C 235 80 200 65 180 45 Z" fill="url(#bowGrad)" stroke="#E7107A" stroke-width="2.5" />
+    <rect x="170" y="32" width="20" height="24" rx="8" fill="#FFA5C3" stroke="#E7107A" stroke-width="2.5" />
+
+    <!-- Face -->
+    <ellipse cx="140" cy="205" rx="13" ry="17" fill="#0A2E58" />
+    <circle cx="136" cy="198" r="5.5" fill="#FFFFFF" />
+    <circle cx="145" cy="212" r="2.5" fill="#FFFFFF" />
+
+    <!-- Wink Eye -->
+    <path d="M 205 205 Q 225 188 240 207" fill="none" stroke="#0A2E58" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Cheeks -->
+    <ellipse cx="115" cy="230" rx="13" ry="8" fill="#FF5E9B" opacity="0.85" />
+    <ellipse cx="245" cy="230" rx="13" ry="8" fill="#FF5E9B" opacity="0.85" />
+
+    <!-- Smile -->
+    <path d="M 170 230 Q 180 225 190 230 Q 192 250 180 252 Q 168 250 170 230 Z" fill="#6A0C38" />
+    <path d="M 173 242 Q 180 236 187 242 Q 184 251 180 251 Q 176 251 173 242 Z" fill="#FF8CB8" />
+
+    <!-- Cute Arms -->
+    <path d="M 80 240 C 50 255 40 230 55 220" fill="none" stroke="#BA005B" stroke-width="7" stroke-linecap="round" />
+    <path d="M 280 240 C 310 260 325 250 315 270" fill="none" stroke="#BA005B" stroke-width="7" stroke-linecap="round" />
+  </g>
+</svg>

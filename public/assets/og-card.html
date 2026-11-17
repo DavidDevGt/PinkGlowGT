@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1200px;
+      height: 630px;
+      background: radial-gradient(circle at 85% 20%, #FFE6EF 0%, #FFF5F8 50%, #FFFFFF 100%);
+      font-family: 'Montserrat', sans-serif;
+      color: #0A2E58;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .destello {
+      position: absolute;
+      width: 40px;
+      height: 48px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #FFFFFF;
+      border: 1.5px solid #FFD6E0;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 15px;
+      font-weight: 700;
+      color: #E7107A;
+      box-shadow: 0 4px 15px rgba(231,16,122,0.08);
+      width: fit-content;
+    }
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 58px;
+      line-height: 1.15;
+      font-weight: 800;
+      color: #0A2E58;
+      margin-top: 15px;
+    }
+    h1 span {
+      color: #E7107A;
+      font-style: italic;
+    }
+    p.tagline {
+      font-size: 21px;
+      color: #475569;
+      margin-top: 15px;
+      max-width: 650px;
+      line-height: 1.5;
+    }
+    .footer-badges {
+      display: flex;
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .f-badge {
+      background: #0A2E58;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 22px;
+      border-radius: 9999px;
+      letter-spacing: 0.5px;
+    }
+    .f-badge.pink {
+      background: #E7107A;
+    }
+    .mascot {
+      position: absolute;
+      right: 60px;
+      bottom: 50px;
+      width: 380px;
+      height: 380px;
+      filter: drop-shadow(0 20px 30px rgba(231,16,122,0.2));
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .logo-img {
+      width: 64px;
+      height: 64px;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 34px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #0A2E58;
+    }
+    .logo-text span {
+      color: #E7107A;
+    }
+  </style>
+</head>
+<body>
+  <img src="/assets/destello.svg" class="destello" style="top: 40px; right: 480px;" alt="">
+  <img src="/assets/destello.svg" class="destello" style="bottom: 80px; left: 600px; transform: scale(0.7);" alt="">
+  
+  <div>
+    <div class="logo-container">
+      <img src="/assets/logo-secundario.svg" class="logo-img" alt="Pink Glow">
+      <div class="logo-text">PINK<span>GLOW</span></div>
+    </div>
+
+    <div style="margin-top: 35px;">
+      <div class="badge">
+        ✨ DUTY FREE GUATEMALA • 100% ORIGINALES
+      </div>
+      <h1>
+        Maquillaje y Perfumes.<br>
+        <span>Brilla a tu manera.</span>
+      </h1>
+      <p class="tagline">
+        Catálogo interactivo con Benefit, perfumes de diseñador sellados, video real con tu nombre y envíos coordinados a todo el país.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-badges">
+    <div class="f-badge pink">BENEFIT TINTS Q280</div>
+    <div class="f-badge">PERFUMES ORIGINALES Q350</div>
+    <div class="f-badge">COMBOS ESPECIALES</div>
+  </div>
+
+  <img src="/assets/glowie.svg" class="mascot" alt="Glowie Pink Glow">
+</body>
+</html>

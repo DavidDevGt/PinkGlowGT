@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="100%" height="100%">
+  <!-- Leaves -->
+  <path d="M 125 50 C 75 30 45 50 35 70 C 70 85 110 70 125 50 Z" fill="#E7107A" />
+  <path d="M 125 50 C 175 30 205 50 215 70 C 180 85 140 70 125 50 Z" fill="#E7107A" />
+  
+  <!-- Stems -->
+  <path d="M 125 50 C 105 100 85 135 70 160" fill="none" stroke="#E7107A" stroke-width="8" stroke-linecap="round" />
+  <path d="M 125 50 C 145 100 165 135 180 160" fill="none" stroke="#E7107A" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Left Cherry -->
+  <circle cx="60" cy="185" r="42" fill="#E7107A" />
+  <path d="M 40 165 C 34 180 40 200 52 206 C 44 200 42 184 48 170 Z" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- Right Cherry -->
+  <circle cx="190" cy="185" r="42" fill="#E7107A" />
+  <path d="M 210 165 C 216 180 210 200 198 206 C 206 200 208 184 202 170 Z" fill="#FFFFFF" opacity="0.9" />
+</svg>

@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  --color-pink-main: #E7107A;
+  --color-pink-secondary: #F87B9A;
+  --color-pink-light: #FFD6E0;
+  --color-navy-brand: #0A2E58;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1.5deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes sparkleSpin {
+  0% {
+    transform: rotate(0deg) scale(0.9);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.15);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.9);
+  }
+}
+
+.animate-float {
+  animation: floatGentle 3.5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+.animate-sparkle {
+  animation: sparkleSpin 4s linear infinite;
+}
+
+/* Accessibility: respect user prefers-reduced-motion setting */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFDFE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFD6E0;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F87B9A;
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "name": "Pink Glow - Catálogo Online de Belleza y Perfumes",
+  "description": "Catálogo interactivo de maquillaje y perfumes 100% originales en Guatemala. Pide directo por WhatsApp con pago seguro y envíos coordinados a todo el país.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

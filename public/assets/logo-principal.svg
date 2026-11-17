@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <!-- Left Sparkle Star -->
+  <path d="M 38 230 C 50 230 50 215 50 215 C 50 215 50 230 62 230 C 50 230 50 245 50 245 C 50 245 50 230 38 230 Z" fill="#E7107A" />
+  
+  <!-- Right Sparkle Star -->
+  <path d="M 438 230 C 450 230 450 215 450 215 C 450 215 450 230 462 230 C 450 230 450 245 450 245 C 450 245 450 230 438 230 Z" fill="#E7107A" />
+  
+  <!-- Top Right Sparkle Star -->
+  <path d="M 390 120 C 400 120 400 105 400 105 C 400 105 400 120 410 120 C 400 120 400 135 400 135 C 400 135 400 120 390 120 Z" fill="#E7107A" />
+
+  <!-- PINK GLOW Wordmark in Navy Serif -->
+  <text x="250" y="115" font-family="'Playfair Display', Georgia, serif" font-size="82" font-weight="700" fill="#0A2E58" text-anchor="middle" letter-spacing="4">PINK</text>
+  <text x="250" y="200" font-family="'Playfair Display', Georgia, serif" font-size="86" font-weight="700" fill="#0A2E58" text-anchor="middle" letter-spacing="6">GLOW</text>
+
+  <!-- Cherries -->
+  <g transform="translate(250, 280) scale(0.65) translate(-125, -125)">
+    <!-- Leaves -->
+    <path d="M 125 70 C 85 55 60 70 50 85 C 80 95 110 85 125 70 Z" fill="#E7107A" />
+    <path d="M 125 70 C 165 55 190 70 200 85 C 170 95 140 85 125 70 Z" fill="#E7107A" />
+    <ellipse cx="125" cy="70" rx="6" ry="4" fill="#E7107A" />
+
+    <!-- Stems -->
+    <path d="M 125 70 C 110 110 95 140 85 160" fill="none" stroke="#E7107A" stroke-width="6" stroke-linecap="round" />
+    <path d="M 125 70 C 140 110 155 140 165 160" fill="none" stroke="#E7107A" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Left Cherry -->
+    <circle cx="75" cy="180" r="34" fill="#E7107A" />
+    <path d="M 58 165 C 54 175 58 190 68 195 C 62 190 60 178 64 168 Z" fill="#FFFFFF" opacity="0.85" />
+
+    <!-- Right Cherry -->
+    <circle cx="175" cy="180" r="34" fill="#E7107A" />
+    <path d="M 192 165 C 196 175 192 190 182 195 C 188 190 190 178 186 168 Z" fill="#FFFFFF" opacity="0.85" />
+  </g>
+
+  <!-- MAKEUP • PERFUME subtitle -->
+  <text x="250" y="355" font-family="'Montserrat', sans-serif" font-size="19" font-weight="600" fill="#E7107A" text-anchor="middle" letter-spacing="11">MAKEUP • PERFUME</text>
+</svg>
